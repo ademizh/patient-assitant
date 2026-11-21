@@ -1,0 +1,11 @@
+[project]
+name = "patient-intake-assistant"
+version = "0.3.0"
+description = "Прототип: помощник пациента до, во время и после приёма (русский интерфейс; не проверен клинически)."
+requires-python = ">=3.10"
+readme = "README.md"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+filterwarnings = ["ignore::DeprecationWarning"]

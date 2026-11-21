@@ -1,0 +1,1567 @@
+{
+  "schema_version": "2.0",
+  "id": "2fd4cc860189",
+  "title": "ВЫМЫШЛЕННЫЙ ПРИМЕР: повторяющиеся головные боли",
+  "appointment_date": "2026-10-09",
+  "created_at": "2026-11-14T04:30:34+00:00",
+  "updated_at": "2026-11-14T04:30:34+00:00",
+  "fictional": true,
+  "intake": {
+    "entries": [
+      {
+        "id": "E1",
+        "source": "text",
+        "original_text": "У меня повторяются головные боли. Начались примерно две недели назад, может чуть больше.",
+        "text": "У меня повторяются головные боли. Начались примерно две недели назад, может чуть больше.",
+        "question_slot": null,
+        "question_text": null,
+        "audio_filename": null,
+        "corrects_entry_id": null,
+        "created_at": "2026-11-14T04:30:34+00:00"
+      },
+      {
+        "id": "E2",
+        "source": "text",
+        "original_text": "За последнюю неделю приступы стали чаще, почти каждый день.",
+        "text": "За последнюю неделю приступы стали чаще, почти каждый день.",
+        "question_slot": "progression",
+        "question_text": "Как менялись симптомы со временем: стали чаще, сильнее, слабее или остались такими же?",
+        "audio_filename": null,
+        "corrects_entry_id": null,
+        "created_at": "2026-11-14T04:30:34+00:00"
+      },
+      {
+        "id": "E3",
+        "source": "text",
+        "original_text": "Боль то появляется, то проходит, обычно после обеда, и длится несколько часов.",
+        "text": "Боль то появляется, то проходит, обычно после обеда, и длится несколько часов.",
+        "question_slot": "duration",
+        "question_text": "Это беспокоит постоянно или периодически? Сколько длится один эпизод?",
+        "audio_filename": null,
+        "corrects_entry_id": null,
+        "created_at": "2026-11-14T04:30:34+00:00"
+      },
+      {
+        "id": "E4",
+        "source": "audio",
+        "original_text": "Примерно шесть из десяти. Вечером иногда сильнее.",
+        "text": "Примерно шесть из десяти. Вечером иногда сильнее.",
+        "question_slot": "severity",
+        "question_text": "Насколько это сильно по шкале от 0 (нет совсем) до 10 (сильнее невозможно представить)?",
+        "audio_filename": "fictional_severity_answer_ru.wav",
+        "corrects_entry_id": null,
+        "created_at": "2026-11-14T04:30:34+00:00"
+      },
+      {
+        "id": "E5",
+        "source": "text",
+        "original_text": "В основном справа во лбу, за глазом.",
+        "text": "В основном справа во лбу, за глазом.",
+        "question_slot": "location",
+        "question_text": "Где именно вы это ощущаете? Отдаёт ли куда-нибудь?",
+        "audio_filename": null,
+        "corrects_entry_id": null,
+        "created_at": "2026-11-14T04:30:34+00:00"
+      },
+      {
+        "id": "E6",
+        "source": "text",
+        "original_text": "Иногда подташнивает, и яркий свет раздражает. Рвоты и температуры нет.",
+        "text": "Иногда подташнивает, и яркий свет раздражает. Рвоты и температуры нет.",
+        "question_slot": "associated_symptoms",
+        "question_text": "Замечали ли вы вместе с этим другие симптомы?",
+        "audio_filename": null,
+        "corrects_entry_id": null,
+        "created_at": "2026-11-14T04:30:34+00:00"
+      },
+      {
+        "id": "E7",
+        "source": "text",
+        "original_text": "Помогает полежать в тёмной комнате. Долгая работа за компьютером усиливает боль.",
+        "text": "Помогает полежать в тёмной комнате. Долгая работа за компьютером усиливает боль.",
+        "question_slot": "modifying_factors",
+        "question_text": "Что облегчает или, наоборот, усиливает это состояние?",
+        "audio_filename": null,
+        "corrects_entry_id": null,
+        "created_at": "2026-11-14T04:30:34+00:00"
+      },
+      {
+        "id": "E8",
+        "source": "text",
+        "original_text": "Три недели назад я вышла на новую работу, много сижу за компьютером. В прошлом месяце была простуда.",
+        "text": "Три недели назад я вышла на новую работу, много сижу за компьютером. В прошлом месяце была простуда.",
+        "question_slot": "relevant_events",
+        "question_text": "Было ли что-то важное для здоровья незадолго до начала: болезнь, травма, поездка, стресс, смена лекарств?",
+        "audio_filename": null,
+        "corrects_entry_id": null,
+        "created_at": "2026-11-14T04:30:34+00:00"
+      },
+      {
+        "id": "E9",
+        "source": "text",
+        "original_text": "Принимаю ибупрофен 400 мг, когда сильно болит, примерно три раза в неделю.",
+        "text": "Принимаю ибупрофен 400 мг, когда сильно болит, примерно три раза в неделю.",
+        "question_slot": "medications",
+        "question_text": "Какие лекарства, витамины или добавки вы принимаете, в том числе от этой проблемы?",
+        "audio_filename": null,
+        "corrects_entry_id": null,
+        "created_at": "2026-11-14T04:30:34+00:00"
+      },
+      {
+        "id": "E10",
+        "source": "text",
+        "original_text": "Аллергии нет.",
+        "text": "Аллергии нет.",
+        "question_slot": "allergies",
+        "question_text": "Есть ли у вас аллергия на лекарства, продукты или что-то ещё?",
+        "audio_filename": null,
+        "corrects_entry_id": null,
+        "created_at": "2026-11-14T04:30:34+00:00"
+      },
+      {
+        "id": "E11",
+        "source": "text",
+        "original_text": "Нужно ли сдавать какие-то анализы? Можно ли продолжать принимать ибупрофен так часто?",
+        "text": "Нужно ли сдавать какие-то анализы? Можно ли продолжать принимать ибупрофен так часто?",
+        "question_slot": "patient_question",
+        "question_text": "Какие вопросы вы хотели бы задать врачу на приёме? Можно перечислить несколько.",
+        "audio_filename": null,
+        "corrects_entry_id": null,
+        "created_at": "2026-11-14T04:30:34+00:00"
+      },
+      {
+        "id": "E12",
+        "source": "text",
+        "original_text": "Хотя, кажется, в детстве у меня была аллергия на пенициллин — появлялась сыпь.",
+        "text": "Хотя, кажется, в детстве у меня была аллергия на пенициллин — появлялась сыпь.",
+        "question_slot": null,
+        "question_text": null,
+        "audio_filename": null,
+        "corrects_entry_id": null,
+        "created_at": "2026-11-14T04:30:34+00:00"
+      }
+    ],
+    "skipped_slots": [
+      "medical_history"
+    ],
+    "finished": true,
+    "fictional_example": true,
+    "extraction": {
+      "facts": [
+        {
+          "category": "main_concern",
+          "statement": "У меня повторяются головные боли.",
+          "source_entry_ids": [
+            "E1"
+          ],
+          "certainty": "reported",
+          "negated": false,
+          "time_reference": null
+        },
+        {
+          "category": "onset",
+          "statement": "Начались примерно две недели назад, может чуть больше.",
+          "source_entry_ids": [
+            "E1"
+          ],
+          "certainty": "uncertain",
+          "negated": false,
+          "time_reference": "примерно две недели назад"
+        },
+        {
+          "category": "progression",
+          "statement": "За последнюю неделю приступы стали чаще, почти каждый день.",
+          "source_entry_ids": [
+            "E2"
+          ],
+          "certainty": "reported",
+          "negated": false,
+          "time_reference": "За последнюю неделю"
+        },
+        {
+          "category": "duration",
+          "statement": "Боль то появляется, то проходит, обычно после обеда, и длится несколько часов.",
+          "source_entry_ids": [
+            "E3"
+          ],
+          "certainty": "reported",
+          "negated": false,
+          "time_reference": null
+        },
+        {
+          "category": "severity",
+          "statement": "Примерно шесть из десяти.",
+          "source_entry_ids": [
+            "E4"
+          ],
+          "certainty": "uncertain",
+          "negated": false,
+          "time_reference": null
+        },
+        {
+          "category": "severity",
+          "statement": "Вечером иногда сильнее.",
+          "source_entry_ids": [
+            "E4"
+          ],
+          "certainty": "reported",
+          "negated": false,
+          "time_reference": null
+        },
+        {
+          "category": "location",
+          "statement": "В основном справа во лбу, за глазом.",
+          "source_entry_ids": [
+            "E5"
+          ],
+          "certainty": "reported",
+          "negated": false,
+          "time_reference": null
+        },
+        {
+          "category": "associated_symptoms",
+          "statement": "Иногда подташнивает, и яркий свет раздражает.",
+          "source_entry_ids": [
+            "E6"
+          ],
+          "certainty": "reported",
+          "negated": false,
+          "time_reference": null
+        },
+        {
+          "category": "associated_symptoms",
+          "statement": "Рвоты и температуры нет.",
+          "source_entry_ids": [
+            "E6"
+          ],
+          "certainty": "reported",
+          "negated": true,
+          "time_reference": null
+        },
+        {
+          "category": "modifying_factors",
+          "statement": "Помогает полежать в тёмной комнате.",
+          "source_entry_ids": [
+            "E7"
+          ],
+          "certainty": "reported",
+          "negated": false,
+          "time_reference": null
+        },
+        {
+          "category": "modifying_factors",
+          "statement": "Долгая работа за компьютером усиливает боль.",
+          "source_entry_ids": [
+            "E7"
+          ],
+          "certainty": "reported",
+          "negated": false,
+          "time_reference": null
+        },
+        {
+          "category": "relevant_events",
+          "statement": "Три недели назад я вышла на новую работу, много сижу за компьютером.",
+          "source_entry_ids": [
+            "E8"
+          ],
+          "certainty": "reported",
+          "negated": false,
+          "time_reference": "Три недели назад"
+        },
+        {
+          "category": "relevant_events",
+          "statement": "В прошлом месяце была простуда.",
+          "source_entry_ids": [
+            "E8"
+          ],
+          "certainty": "reported",
+          "negated": false,
+          "time_reference": "В прошлом месяце"
+        },
+        {
+          "category": "medications",
+          "statement": "Принимаю ибупрофен 400 мг, когда сильно болит, примерно три раза в неделю.",
+          "source_entry_ids": [
+            "E9"
+          ],
+          "certainty": "uncertain",
+          "negated": false,
+          "time_reference": null
+        },
+        {
+          "category": "allergies",
+          "statement": "Аллергии нет.",
+          "source_entry_ids": [
+            "E10"
+          ],
+          "certainty": "reported",
+          "negated": true,
+          "time_reference": null
+        },
+        {
+          "category": "patient_question",
+          "statement": "Нужно ли сдавать какие-то анализы?",
+          "source_entry_ids": [
+            "E11"
+          ],
+          "certainty": "reported",
+          "negated": false,
+          "time_reference": null
+        },
+        {
+          "category": "patient_question",
+          "statement": "Можно ли продолжать принимать ибупрофен так часто?",
+          "source_entry_ids": [
+            "E11"
+          ],
+          "certainty": "reported",
+          "negated": false,
+          "time_reference": null
+        },
+        {
+          "category": "allergies",
+          "statement": "Хотя, кажется, в детстве у меня была аллергия на пенициллин — появлялась сыпь.",
+          "source_entry_ids": [
+            "E12"
+          ],
+          "certainty": "uncertain",
+          "negated": false,
+          "time_reference": "в детстве"
+        }
+      ],
+      "contradictions": [
+        {
+          "description": "Аллергии: «Аллергии нет.» (E10) противоречит «Хотя, кажется, в детстве у меня была аллергия на пенициллин — появлялась сыпь.» (E12).",
+          "source_entry_ids": [
+            "E10",
+            "E12"
+          ]
+        }
+      ],
+      "summary": "[Демо-шаблон — собран из слов пациента, ИИ-модель не использовалась] Основная жалоба со слов пациента: «У меня повторяются головные боли». Начало: «Начались примерно две недели назад, может чуть больше». Изменения со временем: «За последнюю неделю приступы стали чаще, почти каждый день». Выраженность: «Примерно шесть из десяти». Локализация: «В основном справа во лбу, за глазом». Явных отрицаний: 2."
+    },
+    "extraction_generator": "демо-эвристики (офлайн, без ИИ-модели)"
+  },
+  "patient_questions": [
+    {
+      "id": "Q1",
+      "text": "Нужно ли сдавать какие-то анализы?",
+      "source": "intake",
+      "entry_ids": [
+        "E11"
+      ],
+      "asked": true,
+      "answer_note": "",
+      "origin": "patient",
+      "created_at": "2026-11-14T04:30:34+00:00"
+    },
+    {
+      "id": "Q2",
+      "text": "Можно ли продолжать принимать ибупрофен так часто?",
+      "source": "intake",
+      "entry_ids": [
+        "E11"
+      ],
+      "asked": true,
+      "answer_note": "",
+      "origin": "patient",
+      "created_at": "2026-11-14T04:30:34+00:00"
+    },
+    {
+      "id": "Q3",
+      "text": "Что такое ферритин и зачем его проверяют?",
+      "source": "consultation",
+      "entry_ids": [],
+      "asked": false,
+      "answer_note": "",
+      "origin": "patient",
+      "created_at": "2026-11-14T04:30:34+00:00"
+    },
+    {
+      "id": "Q4",
+      "text": "Нужно ли делать МРТ срочно или можно планово?",
+      "source": "manual",
+      "entry_ids": [],
+      "asked": false,
+      "answer_note": "",
+      "origin": "patient",
+      "created_at": "2026-11-14T04:30:34+00:00"
+    }
+  ],
+  "specialist_guidance": {
+    "status": "suggested",
+    "options": [
+      {
+        "specialist": "Терапевт / врач общей практики",
+        "reason": "В источнике сказано: «Если приступы головной боли повторяются, сопровождаются тошнотой, чувствительностью к свету или звуку, терапевт может направить к неврологу.» [635b8e1894d8-s-c002]",
+        "sources": [
+          {
+            "chunk_id": "635b8e1894d8-s-c002",
+            "title": "ДЕМО-материал: к какому врачу обратиться в первую очередь",
+            "filename": "DEMO_ru_specialist_guide.md",
+            "page": null,
+            "heading": "Головная боль",
+            "excerpt": "## Головная боль\n\nПовторяющиеся головные боли обычно сначала оценивает терапевт или врач общей практики. Если приступы головной боли повторяются, сопровождаются тошнотой, чувствительностью к свету или звуку, терапевт может направить к неврологу. На приём полезно принести дневник головной боли и список принимаемых обезболивающих.",
+            "quote": "Если приступы головной боли повторяются, сопровождаются тошнотой, чувствительностью к свету или звуку, терапевт может направить к неврологу.",
+            "language": "ru",
+            "translation_ru": null,
+            "translation_numbers_ok": null,
+            "score": 0.3688,
+            "origin": "knowledge_base"
+          }
+        ]
+      },
+      {
+        "specialist": "Невролог",
+        "reason": "В источнике сказано: «Если приступы головной боли повторяются, сопровождаются тошнотой, чувствительностью к свету или звуку, терапевт может направить к неврологу.» [635b8e1894d8-s-c002]",
+        "sources": [
+          {
+            "chunk_id": "635b8e1894d8-s-c002",
+            "title": "ДЕМО-материал: к какому врачу обратиться в первую очередь",
+            "filename": "DEMO_ru_specialist_guide.md",
+            "page": null,
+            "heading": "Головная боль",
+            "excerpt": "## Головная боль\n\nПовторяющиеся головные боли обычно сначала оценивает терапевт или врач общей практики. Если приступы головной боли повторяются, сопровождаются тошнотой, чувствительностью к свету или звуку, терапевт может направить к неврологу. На приём полезно принести дневник головной боли и список принимаемых обезболивающих.",
+            "quote": "Если приступы головной боли повторяются, сопровождаются тошнотой, чувствительностью к свету или звуку, терапевт может направить к неврологу.",
+            "language": "ru",
+            "translation_ru": null,
+            "translation_numbers_ok": null,
+            "score": 0.3688,
+            "origin": "knowledge_base"
+          }
+        ]
+      }
+    ],
+    "uncertainty": "Демо-режим: совпадения найдены по словам, а не по смыслу. Выбор специалиста зависит от осмотра; если сомневаетесь, начните с терапевта (врача общей практики).",
+    "clarifying_question": null,
+    "default_advice": "Если вы не уверены, к кому обратиться, начните с терапевта (врача общей практики): он оценит ситуацию и при необходимости направит к профильному специалисту.",
+    "query": "У меня повторяются головные боли. В основном справа во лбу, за глазом. Иногда подташнивает, и яркий свет раздражает. За последнюю неделю приступы стали чаще, почти каждый день. Боль то появляется, то проходит, обычно после обеда, и длится несколько часов.",
+    "generator": "демо-эвристики (офлайн, без ИИ-модели)",
+    "notes": [],
+    "based_on_signature": "94b6f6868887c206704c36a07ee52888eae3eac18c91709ab71bedeffa3398ba",
+    "created_at": "2026-11-14T04:30:34+00:00"
+  },
+  "urgent_check": {
+    "pathway_title": "ДЕМОНСТРАЦИОННЫЕ правила срочности (не проверены клиницистом)",
+    "pathway_validated": false,
+    "pathway_source": "Составлено автором прототипа исключительно для демонстрации интерфейса. Не основано на утверждённом клиническом протоколе и не прошло клиническую проверку. Перед реальным использованием замените файл документированным маршрутом, утверждённым клиницистами (validated=true, reviewed_by, source).",
+    "reviewed_by": null,
+    "matches": [],
+    "message": "По ДЕМОНСТРАЦИОННЫМ правилам признаков срочности в ваших записях не найдено. Это не означает, что срочной помощи не требуется: правила не проверены клиницистом. Если состояние резко ухудшилось — звоните 103 или 112.",
+    "emergency_numbers": "103 или 112",
+    "created_at": "2026-11-14T04:30:34+00:00"
+  },
+  "report": {
+    "meta": {
+      "schema_version": "2.0",
+      "generated_at": "2026-11-14T04:30:34+00:00",
+      "mode": "demo",
+      "models": {},
+      "patient_label": "ВЫМЫШЛЕННЫЙ ДЕМО-ПАЦИЕНТ",
+      "fictional_example": true,
+      "intake_completed": true,
+      "disclaimer": "Прототип для демонстрации — не является клинически проверенной системой. Содержит сведения со слов пациента, упорядоченные программой; это не диагноз, информацию должен проверить врач на приёме."
+    },
+    "main_concern": {
+      "label": "Основная жалоба",
+      "category": "main_concern",
+      "text": "У меня повторяются головные боли.",
+      "source_entry_ids": [
+        "E1"
+      ],
+      "certainty": "reported",
+      "time_reference": null,
+      "edited_by_reviewer": false,
+      "flags": []
+    },
+    "symptom_details": [
+      {
+        "label": "Начало",
+        "category": "onset",
+        "text": "Начались примерно две недели назад, может чуть больше.",
+        "source_entry_ids": [
+          "E1"
+        ],
+        "certainty": "uncertain",
+        "time_reference": "примерно две недели назад",
+        "edited_by_reviewer": false,
+        "flags": []
+      },
+      {
+        "label": "Длительность / характер течения",
+        "category": "duration",
+        "text": "Боль то появляется, то проходит, обычно после обеда, и длится несколько часов.",
+        "source_entry_ids": [
+          "E3"
+        ],
+        "certainty": "reported",
+        "time_reference": null,
+        "edited_by_reviewer": false,
+        "flags": []
+      },
+      {
+        "label": "Выраженность",
+        "category": "severity",
+        "text": "Примерно шесть из десяти.",
+        "source_entry_ids": [
+          "E4"
+        ],
+        "certainty": "uncertain",
+        "time_reference": null,
+        "edited_by_reviewer": false,
+        "flags": []
+      },
+      {
+        "label": "Выраженность",
+        "category": "severity",
+        "text": "Вечером иногда сильнее.",
+        "source_entry_ids": [
+          "E4"
+        ],
+        "certainty": "reported",
+        "time_reference": null,
+        "edited_by_reviewer": false,
+        "flags": []
+      },
+      {
+        "label": "Локализация",
+        "category": "location",
+        "text": "В основном справа во лбу, за глазом.",
+        "source_entry_ids": [
+          "E5"
+        ],
+        "certainty": "reported",
+        "time_reference": null,
+        "edited_by_reviewer": false,
+        "flags": []
+      },
+      {
+        "label": "Сопутствующие симптомы",
+        "category": "associated_symptoms",
+        "text": "Иногда подташнивает, и яркий свет раздражает.",
+        "source_entry_ids": [
+          "E6"
+        ],
+        "certainty": "reported",
+        "time_reference": null,
+        "edited_by_reviewer": false,
+        "flags": []
+      },
+      {
+        "label": "Что облегчает или усиливает",
+        "category": "modifying_factors",
+        "text": "Помогает полежать в тёмной комнате.",
+        "source_entry_ids": [
+          "E7"
+        ],
+        "certainty": "reported",
+        "time_reference": null,
+        "edited_by_reviewer": false,
+        "flags": []
+      },
+      {
+        "label": "Что облегчает или усиливает",
+        "category": "modifying_factors",
+        "text": "Долгая работа за компьютером усиливает боль.",
+        "source_entry_ids": [
+          "E7"
+        ],
+        "certainty": "reported",
+        "time_reference": null,
+        "edited_by_reviewer": false,
+        "flags": []
+      }
+    ],
+    "chronology": [
+      {
+        "label": "в детстве — Аллергии",
+        "category": "allergies",
+        "text": "Хотя, кажется, в детстве у меня была аллергия на пенициллин — появлялась сыпь.",
+        "source_entry_ids": [
+          "E12"
+        ],
+        "certainty": "uncertain",
+        "time_reference": "в детстве",
+        "edited_by_reviewer": false,
+        "flags": []
+      },
+      {
+        "label": "В прошлом месяце — Предшествующие события со здоровьем",
+        "category": "relevant_events",
+        "text": "В прошлом месяце была простуда.",
+        "source_entry_ids": [
+          "E8"
+        ],
+        "certainty": "reported",
+        "time_reference": "В прошлом месяце",
+        "edited_by_reviewer": false,
+        "flags": []
+      },
+      {
+        "label": "Три недели назад — Предшествующие события со здоровьем",
+        "category": "relevant_events",
+        "text": "Три недели назад я вышла на новую работу, много сижу за компьютером.",
+        "source_entry_ids": [
+          "E8"
+        ],
+        "certainty": "reported",
+        "time_reference": "Три недели назад",
+        "edited_by_reviewer": false,
+        "flags": []
+      },
+      {
+        "label": "примерно две недели назад — Начало",
+        "category": "onset",
+        "text": "Начались примерно две недели назад, может чуть больше.",
+        "source_entry_ids": [
+          "E1"
+        ],
+        "certainty": "uncertain",
+        "time_reference": "примерно две недели назад",
+        "edited_by_reviewer": false,
+        "flags": []
+      },
+      {
+        "label": "За последнюю неделю — Изменения со временем",
+        "category": "progression",
+        "text": "За последнюю неделю приступы стали чаще, почти каждый день.",
+        "source_entry_ids": [
+          "E2"
+        ],
+        "certainty": "reported",
+        "time_reference": "За последнюю неделю",
+        "edited_by_reviewer": false,
+        "flags": []
+      }
+    ],
+    "progression": [
+      {
+        "label": "Изменения со временем",
+        "category": "progression",
+        "text": "За последнюю неделю приступы стали чаще, почти каждый день.",
+        "source_entry_ids": [
+          "E2"
+        ],
+        "certainty": "reported",
+        "time_reference": "За последнюю неделю",
+        "edited_by_reviewer": false,
+        "flags": []
+      }
+    ],
+    "health_events": [
+      {
+        "label": "Предшествующие события со здоровьем",
+        "category": "relevant_events",
+        "text": "Три недели назад я вышла на новую работу, много сижу за компьютером.",
+        "source_entry_ids": [
+          "E8"
+        ],
+        "certainty": "reported",
+        "time_reference": "Три недели назад",
+        "edited_by_reviewer": false,
+        "flags": []
+      },
+      {
+        "label": "Предшествующие события со здоровьем",
+        "category": "relevant_events",
+        "text": "В прошлом месяце была простуда.",
+        "source_entry_ids": [
+          "E8"
+        ],
+        "certainty": "reported",
+        "time_reference": "В прошлом месяце",
+        "edited_by_reviewer": false,
+        "flags": []
+      }
+    ],
+    "medications": [
+      {
+        "label": "Лекарства",
+        "category": "medications",
+        "text": "Принимаю ибупрофен 400 мг, когда сильно болит, примерно три раза в неделю.",
+        "source_entry_ids": [
+          "E9"
+        ],
+        "certainty": "uncertain",
+        "time_reference": null,
+        "edited_by_reviewer": false,
+        "flags": []
+      }
+    ],
+    "allergies": [
+      {
+        "label": "Аллергии",
+        "category": "allergies",
+        "text": "Хотя, кажется, в детстве у меня была аллергия на пенициллин — появлялась сыпь.",
+        "source_entry_ids": [
+          "E12"
+        ],
+        "certainty": "uncertain",
+        "time_reference": "в детстве",
+        "edited_by_reviewer": false,
+        "flags": []
+      }
+    ],
+    "medical_history": [],
+    "other_reported": [],
+    "negative_findings": [
+      {
+        "label": "Сопутствующие симптомы",
+        "category": "associated_symptoms",
+        "text": "Рвоты и температуры нет.",
+        "source_entry_ids": [
+          "E6"
+        ],
+        "certainty": "reported",
+        "time_reference": null,
+        "edited_by_reviewer": false,
+        "flags": []
+      },
+      {
+        "label": "Аллергии",
+        "category": "allergies",
+        "text": "Аллергии нет.",
+        "source_entry_ids": [
+          "E10"
+        ],
+        "certainty": "reported",
+        "time_reference": null,
+        "edited_by_reviewer": false,
+        "flags": []
+      }
+    ],
+    "missing_information": [
+      {
+        "field": "medical_history",
+        "label": "Хронические заболевания и перенесённое",
+        "reason": "skipped_by_patient"
+      }
+    ],
+    "uncertainties": [
+      {
+        "label": "Начало",
+        "category": "onset",
+        "text": "Начались примерно две недели назад, может чуть больше.",
+        "source_entry_ids": [
+          "E1"
+        ],
+        "certainty": "uncertain",
+        "time_reference": "примерно две недели назад",
+        "edited_by_reviewer": false,
+        "flags": []
+      },
+      {
+        "label": "Выраженность",
+        "category": "severity",
+        "text": "Примерно шесть из десяти.",
+        "source_entry_ids": [
+          "E4"
+        ],
+        "certainty": "uncertain",
+        "time_reference": null,
+        "edited_by_reviewer": false,
+        "flags": []
+      },
+      {
+        "label": "Лекарства",
+        "category": "medications",
+        "text": "Принимаю ибупрофен 400 мг, когда сильно болит, примерно три раза в неделю.",
+        "source_entry_ids": [
+          "E9"
+        ],
+        "certainty": "uncertain",
+        "time_reference": null,
+        "edited_by_reviewer": false,
+        "flags": []
+      },
+      {
+        "label": "Аллергии",
+        "category": "allergies",
+        "text": "Хотя, кажется, в детстве у меня была аллергия на пенициллин — появлялась сыпь.",
+        "source_entry_ids": [
+          "E12"
+        ],
+        "certainty": "uncertain",
+        "time_reference": "в детстве",
+        "edited_by_reviewer": false,
+        "flags": []
+      }
+    ],
+    "contradictions": [
+      {
+        "description": "Аллергии: «Аллергии нет.» (E10) противоречит «Хотя, кажется, в детстве у меня была аллергия на пенициллин — появлялась сыпь.» (E12).",
+        "source_entry_ids": [
+          "E10",
+          "E12"
+        ]
+      }
+    ],
+    "patient_questions": [
+      {
+        "label": "Вопросы к врачу",
+        "category": "patient_question",
+        "text": "Нужно ли сдавать какие-то анализы?",
+        "source_entry_ids": [
+          "E11"
+        ],
+        "certainty": "reported",
+        "time_reference": null,
+        "edited_by_reviewer": false,
+        "flags": []
+      },
+      {
+        "label": "Вопросы к врачу",
+        "category": "patient_question",
+        "text": "Можно ли продолжать принимать ибупрофен так часто?",
+        "source_entry_ids": [
+          "E11"
+        ],
+        "certainty": "reported",
+        "time_reference": null,
+        "edited_by_reviewer": false,
+        "flags": []
+      }
+    ],
+    "ai_generated": {
+      "summary": "[Демо-шаблон — собран из слов пациента, ИИ-модель не использовалась] Основная жалоба со слов пациента: «У меня повторяются головные боли». Начало: «Начались примерно две недели назад, может чуть больше». Изменения со временем: «За последнюю неделю приступы стали чаще, почти каждый день». Выраженность: «Примерно шесть из десяти». Локализация: «В основном справа во лбу, за глазом». Явных отрицаний: 2.",
+      "generator": "демо-эвристики (офлайн, без ИИ-модели)",
+      "notes": [],
+      "edited_by_reviewer": false
+    },
+    "specialist_guidance": {
+      "status": "suggested",
+      "options": [
+        {
+          "specialist": "Терапевт / врач общей практики",
+          "reason": "В источнике сказано: «Если приступы головной боли повторяются, сопровождаются тошнотой, чувствительностью к свету или звуку, терапевт может направить к неврологу.» [635b8e1894d8-s-c002]",
+          "sources": [
+            {
+              "chunk_id": "635b8e1894d8-s-c002",
+              "title": "ДЕМО-материал: к какому врачу обратиться в первую очередь",
+              "filename": "DEMO_ru_specialist_guide.md",
+              "page": null,
+              "heading": "Головная боль",
+              "excerpt": "## Головная боль\n\nПовторяющиеся головные боли обычно сначала оценивает терапевт или врач общей практики. Если приступы головной боли повторяются, сопровождаются тошнотой, чувствительностью к свету или звуку, терапевт может направить к неврологу. На приём полезно принести дневник головной боли и список принимаемых обезболивающих.",
+              "quote": "Если приступы головной боли повторяются, сопровождаются тошнотой, чувствительностью к свету или звуку, терапевт может направить к неврологу.",
+              "language": "ru",
+              "translation_ru": null,
+              "translation_numbers_ok": null,
+              "score": 0.3688,
+              "origin": "knowledge_base"
+            }
+          ]
+        },
+        {
+          "specialist": "Невролог",
+          "reason": "В источнике сказано: «Если приступы головной боли повторяются, сопровождаются тошнотой, чувствительностью к свету или звуку, терапевт может направить к неврологу.» [635b8e1894d8-s-c002]",
+          "sources": [
+            {
+              "chunk_id": "635b8e1894d8-s-c002",
+              "title": "ДЕМО-материал: к какому врачу обратиться в первую очередь",
+              "filename": "DEMO_ru_specialist_guide.md",
+              "page": null,
+              "heading": "Головная боль",
+              "excerpt": "## Головная боль\n\nПовторяющиеся головные боли обычно сначала оценивает терапевт или врач общей практики. Если приступы головной боли повторяются, сопровождаются тошнотой, чувствительностью к свету или звуку, терапевт может направить к неврологу. На приём полезно принести дневник головной боли и список принимаемых обезболивающих.",
+              "quote": "Если приступы головной боли повторяются, сопровождаются тошнотой, чувствительностью к свету или звуку, терапевт может направить к неврологу.",
+              "language": "ru",
+              "translation_ru": null,
+              "translation_numbers_ok": null,
+              "score": 0.3688,
+              "origin": "knowledge_base"
+            }
+          ]
+        }
+      ],
+      "uncertainty": "Демо-режим: совпадения найдены по словам, а не по смыслу. Выбор специалиста зависит от осмотра; если сомневаетесь, начните с терапевта (врача общей практики).",
+      "clarifying_question": null,
+      "default_advice": "Если вы не уверены, к кому обратиться, начните с терапевта (врача общей практики): он оценит ситуацию и при необходимости направит к профильному специалисту.",
+      "query": "У меня повторяются головные боли. В основном справа во лбу, за глазом. Иногда подташнивает, и яркий свет раздражает. За последнюю неделю приступы стали чаще, почти каждый день. Боль то появляется, то проходит, обычно после обеда, и длится несколько часов.",
+      "generator": "демо-эвристики (офлайн, без ИИ-модели)",
+      "notes": [],
+      "based_on_signature": "94b6f6868887c206704c36a07ee52888eae3eac18c91709ab71bedeffa3398ba",
+      "created_at": "2026-11-14T04:30:34+00:00"
+    },
+    "urgent_check": {
+      "pathway_title": "ДЕМОНСТРАЦИОННЫЕ правила срочности (не проверены клиницистом)",
+      "pathway_validated": false,
+      "pathway_source": "Составлено автором прототипа исключительно для демонстрации интерфейса. Не основано на утверждённом клиническом протоколе и не прошло клиническую проверку. Перед реальным использованием замените файл документированным маршрутом, утверждённым клиницистами (validated=true, reviewed_by, source).",
+      "reviewed_by": null,
+      "matches": [],
+      "message": "По ДЕМОНСТРАЦИОННЫМ правилам признаков срочности в ваших записях не найдено. Это не означает, что срочной помощи не требуется: правила не проверены клиницистом. Если состояние резко ухудшилось — звоните 103 или 112.",
+      "emergency_numbers": "103 или 112",
+      "created_at": "2026-11-14T04:30:34+00:00"
+    },
+    "source_entries": [
+      {
+        "id": "E1",
+        "source": "text",
+        "original_text": "У меня повторяются головные боли. Начались примерно две недели назад, может чуть больше.",
+        "text": "У меня повторяются головные боли. Начались примерно две недели назад, может чуть больше.",
+        "question_slot": null,
+        "question_text": null,
+        "audio_filename": null,
+        "corrects_entry_id": null,
+        "created_at": "2026-11-14T04:30:34+00:00"
+      },
+      {
+        "id": "E2",
+        "source": "text",
+        "original_text": "За последнюю неделю приступы стали чаще, почти каждый день.",
+        "text": "За последнюю неделю приступы стали чаще, почти каждый день.",
+        "question_slot": "progression",
+        "question_text": "Как менялись симптомы со временем: стали чаще, сильнее, слабее или остались такими же?",
+        "audio_filename": null,
+        "corrects_entry_id": null,
+        "created_at": "2026-11-14T04:30:34+00:00"
+      },
+      {
+        "id": "E3",
+        "source": "text",
+        "original_text": "Боль то появляется, то проходит, обычно после обеда, и длится несколько часов.",
+        "text": "Боль то появляется, то проходит, обычно после обеда, и длится несколько часов.",
+        "question_slot": "duration",
+        "question_text": "Это беспокоит постоянно или периодически? Сколько длится один эпизод?",
+        "audio_filename": null,
+        "corrects_entry_id": null,
+        "created_at": "2026-11-14T04:30:34+00:00"
+      },
+      {
+        "id": "E4",
+        "source": "audio",
+        "original_text": "Примерно шесть из десяти. Вечером иногда сильнее.",
+        "text": "Примерно шесть из десяти. Вечером иногда сильнее.",
+        "question_slot": "severity",
+        "question_text": "Насколько это сильно по шкале от 0 (нет совсем) до 10 (сильнее невозможно представить)?",
+        "audio_filename": "fictional_severity_answer_ru.wav",
+        "corrects_entry_id": null,
+        "created_at": "2026-11-14T04:30:34+00:00"
+      },
+      {
+        "id": "E5",
+        "source": "text",
+        "original_text": "В основном справа во лбу, за глазом.",
+        "text": "В основном справа во лбу, за глазом.",
+        "question_slot": "location",
+        "question_text": "Где именно вы это ощущаете? Отдаёт ли куда-нибудь?",
+        "audio_filename": null,
+        "corrects_entry_id": null,
+        "created_at": "2026-11-14T04:30:34+00:00"
+      },
+      {
+        "id": "E6",
+        "source": "text",
+        "original_text": "Иногда подташнивает, и яркий свет раздражает. Рвоты и температуры нет.",
+        "text": "Иногда подташнивает, и яркий свет раздражает. Рвоты и температуры нет.",
+        "question_slot": "associated_symptoms",
+        "question_text": "Замечали ли вы вместе с этим другие симптомы?",
+        "audio_filename": null,
+        "corrects_entry_id": null,
+        "created_at": "2026-11-14T04:30:34+00:00"
+      },
+      {
+        "id": "E7",
+        "source": "text",
+        "original_text": "Помогает полежать в тёмной комнате. Долгая работа за компьютером усиливает боль.",
+        "text": "Помогает полежать в тёмной комнате. Долгая работа за компьютером усиливает боль.",
+        "question_slot": "modifying_factors",
+        "question_text": "Что облегчает или, наоборот, усиливает это состояние?",
+        "audio_filename": null,
+        "corrects_entry_id": null,
+        "created_at": "2026-11-14T04:30:34+00:00"
+      },
+      {
+        "id": "E8",
+        "source": "text",
+        "original_text": "Три недели назад я вышла на новую работу, много сижу за компьютером. В прошлом месяце была простуда.",
+        "text": "Три недели назад я вышла на новую работу, много сижу за компьютером. В прошлом месяце была простуда.",
+        "question_slot": "relevant_events",
+        "question_text": "Было ли что-то важное для здоровья незадолго до начала: болезнь, травма, поездка, стресс, смена лекарств?",
+        "audio_filename": null,
+        "corrects_entry_id": null,
+        "created_at": "2026-11-14T04:30:34+00:00"
+      },
+      {
+        "id": "E9",
+        "source": "text",
+        "original_text": "Принимаю ибупрофен 400 мг, когда сильно болит, примерно три раза в неделю.",
+        "text": "Принимаю ибупрофен 400 мг, когда сильно болит, примерно три раза в неделю.",
+        "question_slot": "medications",
+        "question_text": "Какие лекарства, витамины или добавки вы принимаете, в том числе от этой проблемы?",
+        "audio_filename": null,
+        "corrects_entry_id": null,
+        "created_at": "2026-11-14T04:30:34+00:00"
+      },
+      {
+        "id": "E10",
+        "source": "text",
+        "original_text": "Аллергии нет.",
+        "text": "Аллергии нет.",
+        "question_slot": "allergies",
+        "question_text": "Есть ли у вас аллергия на лекарства, продукты или что-то ещё?",
+        "audio_filename": null,
+        "corrects_entry_id": null,
+        "created_at": "2026-11-14T04:30:34+00:00"
+      },
+      {
+        "id": "E11",
+        "source": "text",
+        "original_text": "Нужно ли сдавать какие-то анализы? Можно ли продолжать принимать ибупрофен так часто?",
+        "text": "Нужно ли сдавать какие-то анализы? Можно ли продолжать принимать ибупрофен так часто?",
+        "question_slot": "patient_question",
+        "question_text": "Какие вопросы вы хотели бы задать врачу на приёме? Можно перечислить несколько.",
+        "audio_filename": null,
+        "corrects_entry_id": null,
+        "created_at": "2026-11-14T04:30:34+00:00"
+      },
+      {
+        "id": "E12",
+        "source": "text",
+        "original_text": "Хотя, кажется, в детстве у меня была аллергия на пенициллин — появлялась сыпь.",
+        "text": "Хотя, кажется, в детстве у меня была аллергия на пенициллин — появлялась сыпь.",
+        "question_slot": null,
+        "question_text": null,
+        "audio_filename": null,
+        "corrects_entry_id": null,
+        "created_at": "2026-11-14T04:30:34+00:00"
+      }
+    ]
+  },
+  "report_signature": "94b6f6868887c206704c36a07ee52888eae3eac18c91709ab71bedeffa3398ba",
+  "consultation_items": [
+    {
+      "id": "C1",
+      "kind": "term",
+      "source": "text",
+      "original_text": "МРТ",
+      "text": "МРТ",
+      "upload_id": null,
+      "audio_filename": null,
+      "created_at": "2026-11-14T04:30:34+00:00"
+    },
+    {
+      "id": "C2",
+      "kind": "test_result",
+      "source": "upload",
+      "original_text": "[стр. 1]\nВЫМЫШЛЕННЫЙ ПРИМЕР — бланк для демонстрации прототипа.\nПациент и лаборатория не существуют.\nДемо-лаборатория «Пример»\nДата взятия: 03.10.2026\nПоказатель / Результат / Ед. изм. / Референсный интервал\nГемоглобин (HGB) 128 г/л 120–140\nЛейкоциты (WBC) 6,4 ×10^9/л 4,0–9,0\nТромбоциты (PLT) 250 ×10^9/л 180–320\nСОЭ 12 мм/ч 2–15\nФерритин 9 нг/мл ↓\nС-реактивный белок <1 мг/л до 5\nКомментарий лаборатории: интерпретацию результатов проводит лечащий врач.",
+      "text": "[стр. 1]\nВЫМЫШЛЕННЫЙ ПРИМЕР — бланк для демонстрации прототипа.\nПациент и лаборатория не существуют.\nДемо-лаборатория «Пример»\nДата взятия: 03.10.2026\nПоказатель / Результат / Ед. изм. / Референсный интервал\nГемоглобин (HGB) 128 г/л 120–140\nЛейкоциты (WBC) 6,4 ×10^9/л 4,0–9,0\nТромбоциты (PLT) 250 ×10^9/л 180–320\nСОЭ 12 мм/ч 2–15\nФерритин 9 нг/мл ↓\nС-реактивный белок <1 мг/л до 5\nКомментарий лаборатории: интерпретацию результатов проводит лечащий врач.",
+      "upload_id": "U1",
+      "audio_filename": null,
+      "created_at": "2026-11-14T04:30:34+00:00"
+    },
+    {
+      "id": "C3",
+      "kind": "question",
+      "source": "audio",
+      "original_text": "Что такое ферритин и зачем его проверяют?",
+      "text": "Что такое ферритин и зачем его проверяют?",
+      "upload_id": null,
+      "audio_filename": "fictional_consult_question_ru.wav",
+      "created_at": "2026-11-14T04:30:34+00:00"
+    },
+    {
+      "id": "C4",
+      "kind": "note",
+      "source": "text",
+      "original_text": "Врач сказал, что по описанию похоже на мигрень, и попросил вести дневник головной боли.",
+      "text": "Врач сказал, что по описанию похоже на мигрень, и попросил вести дневник головной боли.",
+      "upload_id": null,
+      "audio_filename": null,
+      "created_at": "2026-11-14T04:30:34+00:00"
+    }
+  ],
+  "explanations": [
+    {
+      "id": "X1",
+      "item_id": "C1",
+      "kind": "term",
+      "query": "МРТ",
+      "document_states": [
+        "МРТ"
+      ],
+      "lab_rows": [],
+      "background": "[Демо-режим — ответ составлен из предложений найденных фрагментов, ИИ-модель не использовалась]\n- МРТ (магнитно-резонансная томография) — метод исследования, при котором изображения органов получают с помощью сильного магнитного поля и радиоволн, без рентгеновского излучения. [c5d30a070faf-p2-c002]",
+      "background_status": "answered",
+      "sources": [
+        {
+          "chunk_id": "c5d30a070faf-p2-c002",
+          "title": "ДЕМО-материал: словарь терминов и анализов",
+          "filename": "DEMO_ru_tests_glossary.pdf",
+          "page": 2,
+          "heading": null,
+          "excerpt": "ДЕМО-материал: словарь терминов и анализов (часть\n2)\nСОЭ\nСОЭ — скорость оседания эритроцитов. Это неспецифический показатель: он\nможет меняться при разных состояниях, поэтому сам по себе не указывает на\nконкретную причину. Обычно его указывают в миллиметрах в час (мм/ч). С-реактивный белок\nС-реактивный белок (СРБ) — белок, уровень которого в крови может меняться при\nвоспалении. Это неспецифический показатель, его оценивают вместе с другими\nданными. МРТ\nМРТ (магнитно-резонансная томография) — метод исследования, при котором\nизображения органов получают с помощью сильного магнитного поля и радиоволн,\nбез рентгеновского излучения. Перед МРТ спрашивают о металлических имплантах\nи кардиостимуляторе. Мигрень\nМигрень — название одного из видов головной боли. Приступы часто бывают\nодносторонними и пульсирующими, могут сопровождаться тошнотой и\nчувствительностью к свету и звуку.",
+          "quote": "МРТ (магнитно-резонансная томография) — метод исследования, при котором изображения органов получают с помощью сильного магнитного поля и радиоволн, без рентгеновского излучения.",
+          "language": "ru",
+          "translation_ru": null,
+          "translation_numbers_ok": null,
+          "score": 0.2572,
+          "origin": "knowledge_base"
+        }
+      ],
+      "ask_doctor": [
+        "Что «МРТ» означает лично в моём случае и что мне нужно делать?"
+      ],
+      "notes": [],
+      "generator": "демо-эвристики (офлайн, без ИИ-модели)",
+      "answer_language_note": null,
+      "created_at": "2026-11-14T04:30:34+00:00"
+    },
+    {
+      "id": "X2",
+      "item_id": "C2",
+      "kind": "test_result",
+      "query": "Ферритин",
+      "document_states": [],
+      "lab_rows": [
+        {
+          "line": "Ферритин 9 нг/мл ↓",
+          "name": "Ферритин",
+          "value": "9",
+          "unit": "нг/мл",
+          "reference_range": null,
+          "flag": "↓"
+        }
+      ],
+      "background": "[Демо-режим — ответ составлен из предложений найденных фрагментов, ИИ-модель не использовалась]\n- Ферритин — белок, в котором организм запасает железо. [c5d30a070faf-p1-c001]\n- Анализ на ферритин используют, чтобы оценить запасы железа в организме. [c5d30a070faf-p1-c001]\n- На уровень ферритина может влиять воспаление, поэтому результат оценивают вместе с другими показателями. [c5d30a070faf-p1-c001]",
+      "background_status": "answered",
+      "sources": [
+        {
+          "chunk_id": "c5d30a070faf-p1-c001",
+          "title": "ДЕМО-материал: словарь терминов и анализов",
+          "filename": "DEMO_ru_tests_glossary.pdf",
+          "page": 1,
+          "heading": null,
+          "excerpt": "крови — лабораторное исследование, в котором определяют\nколичество эритроцитов, лейкоцитов и тромбоцитов, уровень гемоглобина и другие\nпоказатели. Результаты врач оценивает вместе с жалобами и осмотром. Гемоглобин\nГемоглобин — белок в эритроцитах, который переносит кислород. В бланках его\nобычно указывают в граммах на литр (г/л). Ферритин\nФерритин — белок, в котором организм запасает железо. Анализ на ферритин\nиспользуют, чтобы оценить запасы железа в организме. На уровень ферритина\nможет влиять воспаление, поэтому результат оценивают вместе с другими\nпоказателями.",
+          "quote": "Ферритин — белок, в котором организм запасает железо.",
+          "language": "ru",
+          "translation_ru": null,
+          "translation_numbers_ok": null,
+          "score": 0.3827,
+          "origin": "knowledge_base"
+        }
+      ],
+      "ask_doctor": [
+        "Для показателя «Ферритин» в документе не указан референсный интервал. Какой интервал применим в моём случае?",
+        "В бланке рядом с показателем «Ферритин» стоит отметка «↓». Что она означает для меня?",
+        "Как эти результаты связаны с моими жалобами и нужно ли что-то предпринять?"
+      ],
+      "notes": [],
+      "generator": "демо-эвристики (офлайн, без ИИ-модели)",
+      "answer_language_note": null,
+      "created_at": "2026-11-14T04:30:34+00:00"
+    },
+    {
+      "id": "X3",
+      "item_id": "C4",
+      "kind": "note",
+      "query": "мигрень",
+      "document_states": [
+        "Врач сказал, что по описанию похоже на мигрень, и попросил вести дневник головной боли"
+      ],
+      "lab_rows": [],
+      "background": "[Демо-режим — ответ составлен из предложений найденных фрагментов, ИИ-модель не использовалась]\n- Мигрень — название одного из видов головной боли. [c5d30a070faf-p2-c002]",
+      "background_status": "answered",
+      "sources": [
+        {
+          "chunk_id": "c5d30a070faf-p2-c002",
+          "title": "ДЕМО-материал: словарь терминов и анализов",
+          "filename": "DEMO_ru_tests_glossary.pdf",
+          "page": 2,
+          "heading": null,
+          "excerpt": "ДЕМО-материал: словарь терминов и анализов (часть\n2)\nСОЭ\nСОЭ — скорость оседания эритроцитов. Это неспецифический показатель: он\nможет меняться при разных состояниях, поэтому сам по себе не указывает на\nконкретную причину. Обычно его указывают в миллиметрах в час (мм/ч). С-реактивный белок\nС-реактивный белок (СРБ) — белок, уровень которого в крови может меняться при\nвоспалении. Это неспецифический показатель, его оценивают вместе с другими\nданными. МРТ\nМРТ (магнитно-резонансная томография) — метод исследования, при котором\nизображения органов получают с помощью сильного магнитного поля и радиоволн,\nбез рентгеновского излучения. Перед МРТ спрашивают о металлических имплантах\nи кардиостимуляторе. Мигрень\nМигрень — название одного из видов головной боли. Приступы часто бывают\nодносторонними и пульсирующими, могут сопровождаться тошнотой и\nчувствительностью к свету и звуку.",
+          "quote": "Мигрень — название одного из видов головной боли.",
+          "language": "ru",
+          "translation_ru": null,
+          "translation_numbers_ok": null,
+          "score": 0.2572,
+          "origin": "knowledge_base"
+        }
+      ],
+      "ask_doctor": [
+        "Что «мигрень» означает лично в моём случае и что мне нужно делать?"
+      ],
+      "notes": [],
+      "generator": "демо-эвристики (офлайн, без ИИ-модели)",
+      "answer_language_note": null,
+      "created_at": "2026-11-14T04:30:34+00:00"
+    }
+  ],
+  "instructions": [
+    {
+      "id": "D1",
+      "source": "upload",
+      "original_text": "ВЫМЫШЛЕННЫЙ ПРИМЕР — указания врача для демонстрации прототипа. Этот человек и этот приём не существуют.\n\nРекомендации после приёма:\n1. Ибупрофен 400 мг при сильной головной боли, не чаще 2 раз в сутки, не более 3 дней подряд.\n2. Магний B6 по 1 таблетке 2 раза в день в течение 1 месяца.\n3. Сдать анализ крови на ферритин до 25.10.2026.\n4. Сделать МРТ головного мозга в ближайшее время.\n5. Вести дневник головной боли: дата, время, сила боли по шкале 0–10, что помогло.\n6. Ограничить кофе до 1 чашки в день, пить не менее 1,5 л воды.\n7. Делать перерывы от экрана каждые 45 минут.\n8. Повторный приём через 4 недели с результатами анализов.\n9. Магний B6 принимать 1 раз в день утром.",
+      "text": "ВЫМЫШЛЕННЫЙ ПРИМЕР — указания врача для демонстрации прототипа. Этот человек и этот приём не существуют.\n\nРекомендации после приёма:\n1. Ибупрофен 400 мг при сильной головной боли, не чаще 2 раз в сутки, не более 3 дней подряд.\n2. Магний B6 по 1 таблетке 2 раза в день в течение 1 месяца.\n3. Сдать анализ крови на ферритин до 25.10.2026.\n4. Сделать МРТ головного мозга в ближайшее время.\n5. Вести дневник головной боли: дата, время, сила боли по шкале 0–10, что помогло.\n6. Ограничить кофе до 1 чашки в день, пить не менее 1,5 л воды.\n7. Делать перерывы от экрана каждые 45 минут.\n8. Повторный приём через 4 недели с результатами анализов.\n9. Магний B6 принимать 1 раз в день утром.",
+      "upload_id": "U2",
+      "audio_filename": null,
+      "origin": "doctor",
+      "created_at": "2026-11-14T04:30:34+00:00"
+    }
+  ],
+  "actions": [
+    {
+      "id": "A1",
+      "category": "medication",
+      "description": "Лекарство: Ибупрофен",
+      "source_statement": "Ибупрофен 400 мг при сильной головной боли, не чаще 2 раз в сутки, не более 3 дней подряд",
+      "instruction_id": "D1",
+      "added_by": "doctor_instruction",
+      "doctor_due_text": null,
+      "doctor_due_date": null,
+      "due_date_note": null,
+      "patient_target_date": null,
+      "medication": {
+        "name": "Ибупрофен",
+        "dose": "400 мг",
+        "frequency": "не чаще 2 раз в сутки",
+        "duration": "не более 3 дней подряд"
+      },
+      "status": "pending",
+      "completed_at": null,
+      "flags": [],
+      "patient_note": "",
+      "edited_by_patient": false,
+      "explanation": {
+        "id": "",
+        "item_id": "A1",
+        "kind": "term",
+        "query": "Ибупрофен",
+        "document_states": [
+          "Ибупрофен 400 мг при сильной головной боли, не чаще 2 раз в сутки, не более 3 дней подряд"
+        ],
+        "lab_rows": [],
+        "background": "[Демо-режим — ответ составлен из предложений найденных фрагментов, ИИ-модель не использовалась]\n- Ибупрофен относится к нестероидным противовоспалительным средствам. [0c2137aea911-s-c002]\n- Ибупрофен может раздражать слизистую желудка, поэтому врачу важно знать о болезнях желудка и о других лекарствах, которые принимает человек. [0c2137aea911-s-c002]",
+        "background_status": "answered",
+        "sources": [
+          {
+            "chunk_id": "0c2137aea911-s-c002",
+            "title": "ДЕМО-материал: общие сведения о лекарствах из примера",
+            "filename": "DEMO_ru_medications_notes.md",
+            "page": null,
+            "heading": "Ибупрофен",
+            "excerpt": "## Ибупрофен\n\nИбупрофен относится к нестероидным противовоспалительным средствам. Его обычно применяют, чтобы уменьшить\nболь, воспаление и повышенную температуру. Ибупрофен может раздражать слизистую желудка, поэтому врачу\nважно знать о болезнях желудка и о других лекарствах, которые принимает человек. Частый приём\nобезболивающих при головной боли врач учитывает отдельно.",
+            "quote": "Ибупрофен относится к нестероидным противовоспалительным средствам.",
+            "language": "ru",
+            "translation_ru": null,
+            "translation_numbers_ok": null,
+            "score": 0.4102,
+            "origin": "knowledge_base"
+          }
+        ],
+        "ask_doctor": [
+          "Зачем мне назначен «Ибупрофен» и чего ожидать от приёма?"
+        ],
+        "notes": [],
+        "generator": "демо-эвристики (офлайн, без ИИ-модели)",
+        "answer_language_note": null,
+        "created_at": "2026-11-14T04:30:34+00:00"
+      },
+      "created_at": "2026-11-14T04:30:34+00:00"
+    },
+    {
+      "id": "A2",
+      "category": "medication",
+      "description": "Лекарство: Магний B6",
+      "source_statement": "Магний B6 по 1 таблетке 2 раза в день в течение 1 месяца",
+      "instruction_id": "D1",
+      "added_by": "doctor_instruction",
+      "doctor_due_text": null,
+      "doctor_due_date": null,
+      "due_date_note": null,
+      "patient_target_date": null,
+      "medication": {
+        "name": "Магний B6",
+        "dose": "по 1 таблетке",
+        "frequency": "2 раза в день",
+        "duration": "в течение 1 месяца"
+      },
+      "status": "pending",
+      "completed_at": null,
+      "flags": [],
+      "patient_note": "",
+      "edited_by_patient": false,
+      "explanation": {
+        "id": "",
+        "item_id": "A2",
+        "kind": "term",
+        "query": "Магний B6",
+        "document_states": [
+          "Магний B6 по 1 таблетке 2 раза в день в течение 1 месяца"
+        ],
+        "lab_rows": [],
+        "background": "[Демо-режим — ответ составлен из предложений найденных фрагментов, ИИ-модель не использовалась]\n- Магний B6 — это сочетание минерала магния и витамина B6. [0c2137aea911-s-c003]",
+        "background_status": "answered",
+        "sources": [
+          {
+            "chunk_id": "0c2137aea911-s-c003",
+            "title": "ДЕМО-материал: общие сведения о лекарствах из примера",
+            "filename": "DEMO_ru_medications_notes.md",
+            "page": null,
+            "heading": "Магний B6",
+            "excerpt": "## Магний B6\n\nМагний B6 — это сочетание минерала магния и витамина B6. Такие препараты обычно назначают, когда врач\nхочет восполнить недостаток магния. Если в указаниях врача схема приёма описана по-разному, её нужно\nуточнить у врача, а не выбирать самостоятельно.",
+            "quote": "Магний B6 — это сочетание минерала магния и витамина B6.",
+            "language": "ru",
+            "translation_ru": null,
+            "translation_numbers_ok": null,
+            "score": 0.506,
+            "origin": "knowledge_base"
+          }
+        ],
+        "ask_doctor": [
+          "Зачем мне назначен «Магний B6» и чего ожидать от приёма?"
+        ],
+        "notes": [],
+        "generator": "демо-эвристики (офлайн, без ИИ-модели)",
+        "answer_language_note": null,
+        "created_at": "2026-11-14T04:30:34+00:00"
+      },
+      "created_at": "2026-11-14T04:30:34+00:00"
+    },
+    {
+      "id": "A3",
+      "category": "test",
+      "description": "Сдать анализ крови на ферритин до 25.10.2026",
+      "source_statement": "Сдать анализ крови на ферритин до 25.10.2026",
+      "instruction_id": "D1",
+      "added_by": "doctor_instruction",
+      "doctor_due_text": "до 25.10.2026",
+      "doctor_due_date": "2026-10-25",
+      "due_date_note": null,
+      "patient_target_date": null,
+      "medication": null,
+      "status": "pending",
+      "completed_at": null,
+      "flags": [],
+      "patient_note": "",
+      "edited_by_patient": false,
+      "explanation": null,
+      "created_at": "2026-11-14T04:30:34+00:00"
+    },
+    {
+      "id": "A4",
+      "category": "test",
+      "description": "Сделать МРТ головного мозга в ближайшее время",
+      "source_statement": "Сделать МРТ головного мозга в ближайшее время",
+      "instruction_id": "D1",
+      "added_by": "doctor_instruction",
+      "doctor_due_text": null,
+      "doctor_due_date": null,
+      "due_date_note": null,
+      "patient_target_date": "2026-10-10",
+      "medication": null,
+      "status": "pending",
+      "completed_at": null,
+      "flags": [],
+      "patient_note": "",
+      "edited_by_patient": false,
+      "explanation": null,
+      "created_at": "2026-11-14T04:30:34+00:00"
+    },
+    {
+      "id": "A5",
+      "category": "other",
+      "description": "Вести дневник головной боли: дата, время, сила боли по шкале 0–10, что помогло",
+      "source_statement": "Вести дневник головной боли: дата, время, сила боли по шкале 0–10, что помогло",
+      "instruction_id": "D1",
+      "added_by": "doctor_instruction",
+      "doctor_due_text": null,
+      "doctor_due_date": null,
+      "due_date_note": null,
+      "patient_target_date": null,
+      "medication": null,
+      "status": "done",
+      "completed_at": "2026-11-14T04:30:34+00:00",
+      "flags": [],
+      "patient_note": "",
+      "edited_by_patient": false,
+      "explanation": null,
+      "created_at": "2026-11-14T04:30:34+00:00"
+    },
+    {
+      "id": "A6",
+      "category": "diet",
+      "description": "Ограничить кофе до 1 чашки в день, пить не менее 1,5 л воды",
+      "source_statement": "Ограничить кофе до 1 чашки в день, пить не менее 1,5 л воды",
+      "instruction_id": "D1",
+      "added_by": "doctor_instruction",
+      "doctor_due_text": null,
+      "doctor_due_date": null,
+      "due_date_note": null,
+      "patient_target_date": null,
+      "medication": null,
+      "status": "pending",
+      "completed_at": null,
+      "flags": [],
+      "patient_note": "",
+      "edited_by_patient": false,
+      "explanation": null,
+      "created_at": "2026-11-14T04:30:34+00:00"
+    },
+    {
+      "id": "A7",
+      "category": "other",
+      "description": "Делать перерывы от экрана каждые 45 минут",
+      "source_statement": "Делать перерывы от экрана каждые 45 минут",
+      "instruction_id": "D1",
+      "added_by": "doctor_instruction",
+      "doctor_due_text": null,
+      "doctor_due_date": null,
+      "due_date_note": null,
+      "patient_target_date": null,
+      "medication": null,
+      "status": "pending",
+      "completed_at": null,
+      "flags": [],
+      "patient_note": "",
+      "edited_by_patient": false,
+      "explanation": null,
+      "created_at": "2026-11-14T04:30:34+00:00"
+    },
+    {
+      "id": "A8",
+      "category": "follow_up",
+      "description": "Повторный приём через 4 недели с результатами анализов",
+      "source_statement": "Повторный приём через 4 недели с результатами анализов",
+      "instruction_id": "D1",
+      "added_by": "doctor_instruction",
+      "doctor_due_text": "через 4 недели",
+      "doctor_due_date": null,
+      "due_date_note": "Относительный срок — задайте свою целевую дату.",
+      "patient_target_date": "2026-11-06",
+      "medication": null,
+      "status": "pending",
+      "completed_at": null,
+      "flags": [],
+      "patient_note": "",
+      "edited_by_patient": false,
+      "explanation": null,
+      "created_at": "2026-11-14T04:30:34+00:00"
+    },
+    {
+      "id": "A9",
+      "category": "medication",
+      "description": "Лекарство: Магний B6",
+      "source_statement": "Магний B6 принимать 1 раз в день утром",
+      "instruction_id": "D1",
+      "added_by": "doctor_instruction",
+      "doctor_due_text": null,
+      "doctor_due_date": null,
+      "due_date_note": null,
+      "patient_target_date": null,
+      "medication": {
+        "name": "Магний B6",
+        "dose": null,
+        "frequency": "1 раз в день",
+        "duration": null
+      },
+      "status": "pending",
+      "completed_at": null,
+      "flags": [],
+      "patient_note": "",
+      "edited_by_patient": false,
+      "explanation": {
+        "id": "",
+        "item_id": "A9",
+        "kind": "term",
+        "query": "Магний B6",
+        "document_states": [
+          "Магний B6 принимать 1 раз в день утром"
+        ],
+        "lab_rows": [],
+        "background": "[Демо-режим — ответ составлен из предложений найденных фрагментов, ИИ-модель не использовалась]\n- Магний B6 — это сочетание минерала магния и витамина B6. [0c2137aea911-s-c003]",
+        "background_status": "answered",
+        "sources": [
+          {
+            "chunk_id": "0c2137aea911-s-c003",
+            "title": "ДЕМО-материал: общие сведения о лекарствах из примера",
+            "filename": "DEMO_ru_medications_notes.md",
+            "page": null,
+            "heading": "Магний B6",
+            "excerpt": "## Магний B6\n\nМагний B6 — это сочетание минерала магния и витамина B6. Такие препараты обычно назначают, когда врач\nхочет восполнить недостаток магния. Если в указаниях врача схема приёма описана по-разному, её нужно\nуточнить у врача, а не выбирать самостоятельно.",
+            "quote": "Магний B6 — это сочетание минерала магния и витамина B6.",
+            "language": "ru",
+            "translation_ru": null,
+            "translation_numbers_ok": null,
+            "score": 0.506,
+            "origin": "knowledge_base"
+          }
+        ],
+        "ask_doctor": [
+          "Зачем мне назначен «Магний B6» и чего ожидать от приёма?"
+        ],
+        "notes": [],
+        "generator": "демо-эвристики (офлайн, без ИИ-модели)",
+        "answer_language_note": null,
+        "created_at": "2026-11-14T04:30:34+00:00"
+      },
+      "created_at": "2026-11-14T04:30:34+00:00"
+    }
+  ],
+  "instruction_issues": [
+    {
+      "kind": "ambiguous",
+      "description": "Срок не определён: «в ближайшее время». Уточните у врача.",
+      "source_statements": [
+        "Сделать МРТ головного мозга в ближайшее время"
+      ],
+      "action_ids": [
+        "A4"
+      ],
+      "origin": "rules",
+      "resolved": false
+    },
+    {
+      "kind": "missing_detail",
+      "description": "В указании о лекарстве не найдено: дозировка. Не додумывайте — уточните у врача.",
+      "source_statements": [
+        "Магний B6 принимать 1 раз в день утром"
+      ],
+      "action_ids": [
+        "A9"
+      ],
+      "origin": "rules",
+      "resolved": false
+    },
+    {
+      "kind": "contradiction",
+      "description": "«Магний B6» — частота: «2 раза в день» и «1 раз в день». Уточните у врача, какой вариант верный.",
+      "source_statements": [
+        "Магний B6 по 1 таблетке 2 раза в день в течение 1 месяца",
+        "Магний B6 принимать 1 раз в день утром"
+      ],
+      "action_ids": [
+        "A2",
+        "A9"
+      ],
+      "origin": "rules",
+      "resolved": false
+    }
+  ],
+  "actions_signature": "f907e4f838501efcdd20d2989a8148eb260e1ee25de65d982e95bb65902fc368",
+  "actions_generator": "демо-эвристики (офлайн, без ИИ-модели)",
+  "uploads": [
+    {
+      "id": "U1",
+      "filename": "FICTIONAL_lab_results.pdf",
+      "stored_name": "U1__FICTIONAL_lab_results.pdf",
+      "kind": "test_result",
+      "sha256": "8a24fffa1670b5baac64417911a05d8f74e898cac1593d47618df8ef01dc6445",
+      "size": 23311,
+      "n_pages": 1,
+      "text_extracted": true,
+      "note": null,
+      "created_at": "2026-11-14T04:30:34+00:00"
+    },
+    {
+      "id": "U2",
+      "filename": "FICTIONAL_doctor_instructions.txt",
+      "stored_name": "U2__FICTIONAL_doctor_instructions.txt",
+      "kind": "instructions",
+      "sha256": "a306b40f4b5191927b158bf59f57d48e50e7793a7dbce5e54d191c11e4350f9d",
+      "size": 1174,
+      "n_pages": null,
+      "text_extracted": true,
+      "note": null,
+      "created_at": "2026-11-14T04:30:34+00:00"
+    }
+  ]
+}

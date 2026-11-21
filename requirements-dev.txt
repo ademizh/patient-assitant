@@ -1,0 +1,5 @@
+-r requirements.txt
+pytest>=9.0
+# Only needed to regenerate the Russian speech clips (scripts/make_sample_assets.py):
+espeakng-loader>=0.2
+Pillow>=10

@@ -1,0 +1,575 @@
+{
+  "meta": {
+    "schema_version": "2.0",
+    "generated_at": "2026-11-14T04:30:34+00:00",
+    "mode": "demo",
+    "models": {},
+    "patient_label": "ВЫМЫШЛЕННЫЙ ДЕМО-ПАЦИЕНТ",
+    "fictional_example": true,
+    "intake_completed": true,
+    "disclaimer": "Прототип для демонстрации — не является клинически проверенной системой. Содержит сведения со слов пациента, упорядоченные программой; это не диагноз, информацию должен проверить врач на приёме."
+  },
+  "main_concern": {
+    "label": "Основная жалоба",
+    "category": "main_concern",
+    "text": "У меня повторяются головные боли.",
+    "source_entry_ids": [
+      "E1"
+    ],
+    "certainty": "reported",
+    "time_reference": null,
+    "edited_by_reviewer": false,
+    "flags": []
+  },
+  "symptom_details": [
+    {
+      "label": "Начало",
+      "category": "onset",
+      "text": "Начались примерно две недели назад, может чуть больше.",
+      "source_entry_ids": [
+        "E1"
+      ],
+      "certainty": "uncertain",
+      "time_reference": "примерно две недели назад",
+      "edited_by_reviewer": false,
+      "flags": []
+    },
+    {
+      "label": "Длительность / характер течения",
+      "category": "duration",
+      "text": "Боль то появляется, то проходит, обычно после обеда, и длится несколько часов.",
+      "source_entry_ids": [
+        "E3"
+      ],
+      "certainty": "reported",
+      "time_reference": null,
+      "edited_by_reviewer": false,
+      "flags": []
+    },
+    {
+      "label": "Выраженность",
+      "category": "severity",
+      "text": "Примерно шесть из десяти.",
+      "source_entry_ids": [
+        "E4"
+      ],
+      "certainty": "uncertain",
+      "time_reference": null,
+      "edited_by_reviewer": false,
+      "flags": []
+    },
+    {
+      "label": "Выраженность",
+      "category": "severity",
+      "text": "Вечером иногда сильнее.",
+      "source_entry_ids": [
+        "E4"
+      ],
+      "certainty": "reported",
+      "time_reference": null,
+      "edited_by_reviewer": false,
+      "flags": []
+    },
+    {
+      "label": "Локализация",
+      "category": "location",
+      "text": "В основном справа во лбу, за глазом.",
+      "source_entry_ids": [
+        "E5"
+      ],
+      "certainty": "reported",
+      "time_reference": null,
+      "edited_by_reviewer": false,
+      "flags": []
+    },
+    {
+      "label": "Сопутствующие симптомы",
+      "category": "associated_symptoms",
+      "text": "Иногда подташнивает, и яркий свет раздражает.",
+      "source_entry_ids": [
+        "E6"
+      ],
+      "certainty": "reported",
+      "time_reference": null,
+      "edited_by_reviewer": false,
+      "flags": []
+    },
+    {
+      "label": "Что облегчает или усиливает",
+      "category": "modifying_factors",
+      "text": "Помогает полежать в тёмной комнате.",
+      "source_entry_ids": [
+        "E7"
+      ],
+      "certainty": "reported",
+      "time_reference": null,
+      "edited_by_reviewer": false,
+      "flags": []
+    },
+    {
+      "label": "Что облегчает или усиливает",
+      "category": "modifying_factors",
+      "text": "Долгая работа за компьютером усиливает боль.",
+      "source_entry_ids": [
+        "E7"
+      ],
+      "certainty": "reported",
+      "time_reference": null,
+      "edited_by_reviewer": false,
+      "flags": []
+    }
+  ],
+  "chronology": [
+    {
+      "label": "в детстве — Аллергии",
+      "category": "allergies",
+      "text": "Хотя, кажется, в детстве у меня была аллергия на пенициллин — появлялась сыпь.",
+      "source_entry_ids": [
+        "E12"
+      ],
+      "certainty": "uncertain",
+      "time_reference": "в детстве",
+      "edited_by_reviewer": false,
+      "flags": []
+    },
+    {
+      "label": "В прошлом месяце — Предшествующие события со здоровьем",
+      "category": "relevant_events",
+      "text": "В прошлом месяце была простуда.",
+      "source_entry_ids": [
+        "E8"
+      ],
+      "certainty": "reported",
+      "time_reference": "В прошлом месяце",
+      "edited_by_reviewer": false,
+      "flags": []
+    },
+    {
+      "label": "Три недели назад — Предшествующие события со здоровьем",
+      "category": "relevant_events",
+      "text": "Три недели назад я вышла на новую работу, много сижу за компьютером.",
+      "source_entry_ids": [
+        "E8"
+      ],
+      "certainty": "reported",
+      "time_reference": "Три недели назад",
+      "edited_by_reviewer": false,
+      "flags": []
+    },
+    {
+      "label": "примерно две недели назад — Начало",
+      "category": "onset",
+      "text": "Начались примерно две недели назад, может чуть больше.",
+      "source_entry_ids": [
+        "E1"
+      ],
+      "certainty": "uncertain",
+      "time_reference": "примерно две недели назад",
+      "edited_by_reviewer": false,
+      "flags": []
+    },
+    {
+      "label": "За последнюю неделю — Изменения со временем",
+      "category": "progression",
+      "text": "За последнюю неделю приступы стали чаще, почти каждый день.",
+      "source_entry_ids": [
+        "E2"
+      ],
+      "certainty": "reported",
+      "time_reference": "За последнюю неделю",
+      "edited_by_reviewer": false,
+      "flags": []
+    }
+  ],
+  "progression": [
+    {
+      "label": "Изменения со временем",
+      "category": "progression",
+      "text": "За последнюю неделю приступы стали чаще, почти каждый день.",
+      "source_entry_ids": [
+        "E2"
+      ],
+      "certainty": "reported",
+      "time_reference": "За последнюю неделю",
+      "edited_by_reviewer": false,
+      "flags": []
+    }
+  ],
+  "health_events": [
+    {
+      "label": "Предшествующие события со здоровьем",
+      "category": "relevant_events",
+      "text": "Три недели назад я вышла на новую работу, много сижу за компьютером.",
+      "source_entry_ids": [
+        "E8"
+      ],
+      "certainty": "reported",
+      "time_reference": "Три недели назад",
+      "edited_by_reviewer": false,
+      "flags": []
+    },
+    {
+      "label": "Предшествующие события со здоровьем",
+      "category": "relevant_events",
+      "text": "В прошлом месяце была простуда.",
+      "source_entry_ids": [
+        "E8"
+      ],
+      "certainty": "reported",
+      "time_reference": "В прошлом месяце",
+      "edited_by_reviewer": false,
+      "flags": []
+    }
+  ],
+  "medications": [
+    {
+      "label": "Лекарства",
+      "category": "medications",
+      "text": "Принимаю ибупрофен 400 мг, когда сильно болит, примерно три раза в неделю.",
+      "source_entry_ids": [
+        "E9"
+      ],
+      "certainty": "uncertain",
+      "time_reference": null,
+      "edited_by_reviewer": false,
+      "flags": []
+    }
+  ],
+  "allergies": [
+    {
+      "label": "Аллергии",
+      "category": "allergies",
+      "text": "Хотя, кажется, в детстве у меня была аллергия на пенициллин — появлялась сыпь.",
+      "source_entry_ids": [
+        "E12"
+      ],
+      "certainty": "uncertain",
+      "time_reference": "в детстве",
+      "edited_by_reviewer": false,
+      "flags": []
+    }
+  ],
+  "medical_history": [],
+  "other_reported": [],
+  "negative_findings": [
+    {
+      "label": "Сопутствующие симптомы",
+      "category": "associated_symptoms",
+      "text": "Рвоты и температуры нет.",
+      "source_entry_ids": [
+        "E6"
+      ],
+      "certainty": "reported",
+      "time_reference": null,
+      "edited_by_reviewer": false,
+      "flags": []
+    },
+    {
+      "label": "Аллергии",
+      "category": "allergies",
+      "text": "Аллергии нет.",
+      "source_entry_ids": [
+        "E10"
+      ],
+      "certainty": "reported",
+      "time_reference": null,
+      "edited_by_reviewer": false,
+      "flags": []
+    }
+  ],
+  "missing_information": [
+    {
+      "field": "medical_history",
+      "label": "Хронические заболевания и перенесённое",
+      "reason": "skipped_by_patient"
+    }
+  ],
+  "uncertainties": [
+    {
+      "label": "Начало",
+      "category": "onset",
+      "text": "Начались примерно две недели назад, может чуть больше.",
+      "source_entry_ids": [
+        "E1"
+      ],
+      "certainty": "uncertain",
+      "time_reference": "примерно две недели назад",
+      "edited_by_reviewer": false,
+      "flags": []
+    },
+    {
+      "label": "Выраженность",
+      "category": "severity",
+      "text": "Примерно шесть из десяти.",
+      "source_entry_ids": [
+        "E4"
+      ],
+      "certainty": "uncertain",
+      "time_reference": null,
+      "edited_by_reviewer": false,
+      "flags": []
+    },
+    {
+      "label": "Лекарства",
+      "category": "medications",
+      "text": "Принимаю ибупрофен 400 мг, когда сильно болит, примерно три раза в неделю.",
+      "source_entry_ids": [
+        "E9"
+      ],
+      "certainty": "uncertain",
+      "time_reference": null,
+      "edited_by_reviewer": false,
+      "flags": []
+    },
+    {
+      "label": "Аллергии",
+      "category": "allergies",
+      "text": "Хотя, кажется, в детстве у меня была аллергия на пенициллин — появлялась сыпь.",
+      "source_entry_ids": [
+        "E12"
+      ],
+      "certainty": "uncertain",
+      "time_reference": "в детстве",
+      "edited_by_reviewer": false,
+      "flags": []
+    }
+  ],
+  "contradictions": [
+    {
+      "description": "Аллергии: «Аллергии нет.» (E10) противоречит «Хотя, кажется, в детстве у меня была аллергия на пенициллин — появлялась сыпь.» (E12).",
+      "source_entry_ids": [
+        "E10",
+        "E12"
+      ]
+    }
+  ],
+  "patient_questions": [
+    {
+      "label": "Вопросы к врачу",
+      "category": "patient_question",
+      "text": "Нужно ли сдавать какие-то анализы?",
+      "source_entry_ids": [
+        "E11"
+      ],
+      "certainty": "reported",
+      "time_reference": null,
+      "edited_by_reviewer": false,
+      "flags": []
+    },
+    {
+      "label": "Вопросы к врачу",
+      "category": "patient_question",
+      "text": "Можно ли продолжать принимать ибупрофен так часто?",
+      "source_entry_ids": [
+        "E11"
+      ],
+      "certainty": "reported",
+      "time_reference": null,
+      "edited_by_reviewer": false,
+      "flags": []
+    }
+  ],
+  "ai_generated": {
+    "summary": "[Демо-шаблон — собран из слов пациента, ИИ-модель не использовалась] Основная жалоба со слов пациента: «У меня повторяются головные боли». Начало: «Начались примерно две недели назад, может чуть больше». Изменения со временем: «За последнюю неделю приступы стали чаще, почти каждый день». Выраженность: «Примерно шесть из десяти». Локализация: «В основном справа во лбу, за глазом». Явных отрицаний: 2.",
+    "generator": "демо-эвристики (офлайн, без ИИ-модели)",
+    "notes": [],
+    "edited_by_reviewer": false
+  },
+  "specialist_guidance": {
+    "status": "suggested",
+    "options": [
+      {
+        "specialist": "Терапевт / врач общей практики",
+        "reason": "В источнике сказано: «Если приступы головной боли повторяются, сопровождаются тошнотой, чувствительностью к свету или звуку, терапевт может направить к неврологу.» [635b8e1894d8-s-c002]",
+        "sources": [
+          {
+            "chunk_id": "635b8e1894d8-s-c002",
+            "title": "ДЕМО-материал: к какому врачу обратиться в первую очередь",
+            "filename": "DEMO_ru_specialist_guide.md",
+            "page": null,
+            "heading": "Головная боль",
+            "excerpt": "## Головная боль\n\nПовторяющиеся головные боли обычно сначала оценивает терапевт или врач общей практики. Если приступы головной боли повторяются, сопровождаются тошнотой, чувствительностью к свету или звуку, терапевт может направить к неврологу. На приём полезно принести дневник головной боли и список принимаемых обезболивающих.",
+            "quote": "Если приступы головной боли повторяются, сопровождаются тошнотой, чувствительностью к свету или звуку, терапевт может направить к неврологу.",
+            "language": "ru",
+            "translation_ru": null,
+            "translation_numbers_ok": null,
+            "score": 0.3688,
+            "origin": "knowledge_base"
+          }
+        ]
+      },
+      {
+        "specialist": "Невролог",
+        "reason": "В источнике сказано: «Если приступы головной боли повторяются, сопровождаются тошнотой, чувствительностью к свету или звуку, терапевт может направить к неврологу.» [635b8e1894d8-s-c002]",
+        "sources": [
+          {
+            "chunk_id": "635b8e1894d8-s-c002",
+            "title": "ДЕМО-материал: к какому врачу обратиться в первую очередь",
+            "filename": "DEMO_ru_specialist_guide.md",
+            "page": null,
+            "heading": "Головная боль",
+            "excerpt": "## Головная боль\n\nПовторяющиеся головные боли обычно сначала оценивает терапевт или врач общей практики. Если приступы головной боли повторяются, сопровождаются тошнотой, чувствительностью к свету или звуку, терапевт может направить к неврологу. На приём полезно принести дневник головной боли и список принимаемых обезболивающих.",
+            "quote": "Если приступы головной боли повторяются, сопровождаются тошнотой, чувствительностью к свету или звуку, терапевт может направить к неврологу.",
+            "language": "ru",
+            "translation_ru": null,
+            "translation_numbers_ok": null,
+            "score": 0.3688,
+            "origin": "knowledge_base"
+          }
+        ]
+      }
+    ],
+    "uncertainty": "Демо-режим: совпадения найдены по словам, а не по смыслу. Выбор специалиста зависит от осмотра; если сомневаетесь, начните с терапевта (врача общей практики).",
+    "clarifying_question": null,
+    "default_advice": "Если вы не уверены, к кому обратиться, начните с терапевта (врача общей практики): он оценит ситуацию и при необходимости направит к профильному специалисту.",
+    "query": "У меня повторяются головные боли. В основном справа во лбу, за глазом. Иногда подташнивает, и яркий свет раздражает. За последнюю неделю приступы стали чаще, почти каждый день. Боль то появляется, то проходит, обычно после обеда, и длится несколько часов.",
+    "generator": "демо-эвристики (офлайн, без ИИ-модели)",
+    "notes": [],
+    "based_on_signature": "94b6f6868887c206704c36a07ee52888eae3eac18c91709ab71bedeffa3398ba",
+    "created_at": "2026-11-14T04:30:34+00:00"
+  },
+  "urgent_check": {
+    "pathway_title": "ДЕМОНСТРАЦИОННЫЕ правила срочности (не проверены клиницистом)",
+    "pathway_validated": false,
+    "pathway_source": "Составлено автором прототипа исключительно для демонстрации интерфейса. Не основано на утверждённом клиническом протоколе и не прошло клиническую проверку. Перед реальным использованием замените файл документированным маршрутом, утверждённым клиницистами (validated=true, reviewed_by, source).",
+    "reviewed_by": null,
+    "matches": [],
+    "message": "По ДЕМОНСТРАЦИОННЫМ правилам признаков срочности в ваших записях не найдено. Это не означает, что срочной помощи не требуется: правила не проверены клиницистом. Если состояние резко ухудшилось — звоните 103 или 112.",
+    "emergency_numbers": "103 или 112",
+    "created_at": "2026-11-14T04:30:34+00:00"
+  },
+  "source_entries": [
+    {
+      "id": "E1",
+      "source": "text",
+      "original_text": "У меня повторяются головные боли. Начались примерно две недели назад, может чуть больше.",
+      "text": "У меня повторяются головные боли. Начались примерно две недели назад, может чуть больше.",
+      "question_slot": null,
+      "question_text": null,
+      "audio_filename": null,
+      "corrects_entry_id": null,
+      "created_at": "2026-11-14T04:30:34+00:00"
+    },
+    {
+      "id": "E2",
+      "source": "text",
+      "original_text": "За последнюю неделю приступы стали чаще, почти каждый день.",
+      "text": "За последнюю неделю приступы стали чаще, почти каждый день.",
+      "question_slot": "progression",
+      "question_text": "Как менялись симптомы со временем: стали чаще, сильнее, слабее или остались такими же?",
+      "audio_filename": null,
+      "corrects_entry_id": null,
+      "created_at": "2026-11-14T04:30:34+00:00"
+    },
+    {
+      "id": "E3",
+      "source": "text",
+      "original_text": "Боль то появляется, то проходит, обычно после обеда, и длится несколько часов.",
+      "text": "Боль то появляется, то проходит, обычно после обеда, и длится несколько часов.",
+      "question_slot": "duration",
+      "question_text": "Это беспокоит постоянно или периодически? Сколько длится один эпизод?",
+      "audio_filename": null,
+      "corrects_entry_id": null,
+      "created_at": "2026-11-14T04:30:34+00:00"
+    },
+    {
+      "id": "E4",
+      "source": "audio",
+      "original_text": "Примерно шесть из десяти. Вечером иногда сильнее.",
+      "text": "Примерно шесть из десяти. Вечером иногда сильнее.",
+      "question_slot": "severity",
+      "question_text": "Насколько это сильно по шкале от 0 (нет совсем) до 10 (сильнее невозможно представить)?",
+      "audio_filename": "fictional_severity_answer_ru.wav",
+      "corrects_entry_id": null,
+      "created_at": "2026-11-14T04:30:34+00:00"
+    },
+    {
+      "id": "E5",
+      "source": "text",
+      "original_text": "В основном справа во лбу, за глазом.",
+      "text": "В основном справа во лбу, за глазом.",
+      "question_slot": "location",
+      "question_text": "Где именно вы это ощущаете? Отдаёт ли куда-нибудь?",
+      "audio_filename": null,
+      "corrects_entry_id": null,
+      "created_at": "2026-11-14T04:30:34+00:00"
+    },
+    {
+      "id": "E6",
+      "source": "text",
+      "original_text": "Иногда подташнивает, и яркий свет раздражает. Рвоты и температуры нет.",
+      "text": "Иногда подташнивает, и яркий свет раздражает. Рвоты и температуры нет.",
+      "question_slot": "associated_symptoms",
+      "question_text": "Замечали ли вы вместе с этим другие симптомы?",
+      "audio_filename": null,
+      "corrects_entry_id": null,
+      "created_at": "2026-11-14T04:30:34+00:00"
+    },
+    {
+      "id": "E7",
+      "source": "text",
+      "original_text": "Помогает полежать в тёмной комнате. Долгая работа за компьютером усиливает боль.",
+      "text": "Помогает полежать в тёмной комнате. Долгая работа за компьютером усиливает боль.",
+      "question_slot": "modifying_factors",
+      "question_text": "Что облегчает или, наоборот, усиливает это состояние?",
+      "audio_filename": null,
+      "corrects_entry_id": null,
+      "created_at": "2026-11-14T04:30:34+00:00"
+    },
+    {
+      "id": "E8",
+      "source": "text",
+      "original_text": "Три недели назад я вышла на новую работу, много сижу за компьютером. В прошлом месяце была простуда.",
+      "text": "Три недели назад я вышла на новую работу, много сижу за компьютером. В прошлом месяце была простуда.",
+      "question_slot": "relevant_events",
+      "question_text": "Было ли что-то важное для здоровья незадолго до начала: болезнь, травма, поездка, стресс, смена лекарств?",
+      "audio_filename": null,
+      "corrects_entry_id": null,
+      "created_at": "2026-11-14T04:30:34+00:00"
+    },
+    {
+      "id": "E9",
+      "source": "text",
+      "original_text": "Принимаю ибупрофен 400 мг, когда сильно болит, примерно три раза в неделю.",
+      "text": "Принимаю ибупрофен 400 мг, когда сильно болит, примерно три раза в неделю.",
+      "question_slot": "medications",
+      "question_text": "Какие лекарства, витамины или добавки вы принимаете, в том числе от этой проблемы?",
+      "audio_filename": null,
+      "corrects_entry_id": null,
+      "created_at": "2026-11-14T04:30:34+00:00"
+    },
+    {
+      "id": "E10",
+      "source": "text",
+      "original_text": "Аллергии нет.",
+      "text": "Аллергии нет.",
+      "question_slot": "allergies",
+      "question_text": "Есть ли у вас аллергия на лекарства, продукты или что-то ещё?",
+      "audio_filename": null,
+      "corrects_entry_id": null,
+      "created_at": "2026-11-14T04:30:34+00:00"
+    },
+    {
+      "id": "E11",
+      "source": "text",
+      "original_text": "Нужно ли сдавать какие-то анализы? Можно ли продолжать принимать ибупрофен так часто?",
+      "text": "Нужно ли сдавать какие-то анализы? Можно ли продолжать принимать ибупрофен так часто?",
+      "question_slot": "patient_question",
+      "question_text": "Какие вопросы вы хотели бы задать врачу на приёме? Можно перечислить несколько.",
+      "audio_filename": null,
+      "corrects_entry_id": null,
+      "created_at": "2026-11-14T04:30:34+00:00"
+    },
+    {
+      "id": "E12",
+      "source": "text",
+      "original_text": "Хотя, кажется, в детстве у меня была аллергия на пенициллин — появлялась сыпь.",
+      "text": "Хотя, кажется, в детстве у меня была аллергия на пенициллин — появлялась сыпь.",
+      "question_slot": null,
+      "question_text": null,
+      "audio_filename": null,
+      "corrects_entry_id": null,
+      "created_at": "2026-11-14T04:30:34+00:00"
+    }
+  ]
+}

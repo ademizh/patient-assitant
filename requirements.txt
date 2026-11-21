@@ -1,0 +1,15 @@
+# Versions verified working together on Python 3.13 (Oct 2026). Lower bounds are the tested minimums.
+streamlit>=1.65,<2
+openai>=3.28,<4
+chromadb>=1.5,<2
+pypdf>=6.0,<7
+fpdf2>=2.8,<3
+pydantic>=2.14,<3
+python-dotenv>=1.2,<2
+pandas>=2.2
+# Workflow orchestration (see docs/LANGGRAPH_GUIDE.md)
+langgraph>=1.2,<2
+langgraph-checkpoint-sqlite>=3.1,<4
+# Small HTTP API for website integration (api.py)
+fastapi>=0.160,<1
+uvicorn>=0.50

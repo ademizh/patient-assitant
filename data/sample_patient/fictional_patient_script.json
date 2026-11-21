@@ -1,0 +1,46 @@
+{
+  "label": "ВЫМЫШЛЕННЫЙ ДЕМО-ПАЦИЕНТ — этот человек не существует",
+  "title": "ВЫМЫШЛЕННЫЙ ПРИМЕР: повторяющиеся головные боли",
+  "description": "Используется только для демонстрации сценария «до → во время → после приёма». Есть голосовой ответ, приблизительные сроки, изменения со временем, пропущенный вопрос, явные отрицания, противоречие и вопросы к врачу.",
+  "intake_steps": [
+    {"action": "entry", "slot": null, "source": "text",
+     "text": "У меня повторяются головные боли. Начались примерно две недели назад, может чуть больше."},
+    {"action": "entry", "slot": "progression", "source": "text",
+     "text": "За последнюю неделю приступы стали чаще, почти каждый день."},
+    {"action": "entry", "slot": "duration", "source": "text",
+     "text": "Боль то появляется, то проходит, обычно после обеда, и длится несколько часов."},
+    {"action": "entry", "slot": "severity", "source": "audio",
+     "audio_file": "fictional_severity_answer_ru.wav"},
+    {"action": "entry", "slot": "location", "source": "text",
+     "text": "В основном справа во лбу, за глазом."},
+    {"action": "entry", "slot": "associated_symptoms", "source": "text",
+     "text": "Иногда подташнивает, и яркий свет раздражает. Рвоты и температуры нет."},
+    {"action": "entry", "slot": "modifying_factors", "source": "text",
+     "text": "Помогает полежать в тёмной комнате. Долгая работа за компьютером усиливает боль."},
+    {"action": "entry", "slot": "relevant_events", "source": "text",
+     "text": "Три недели назад я вышла на новую работу, много сижу за компьютером. В прошлом месяце была простуда."},
+    {"action": "entry", "slot": "medications", "source": "text",
+     "text": "Принимаю ибупрофен 400 мг, когда сильно болит, примерно три раза в неделю."},
+    {"action": "entry", "slot": "allergies", "source": "text",
+     "text": "Аллергии нет."},
+    {"action": "skip", "slot": "medical_history"},
+    {"action": "entry", "slot": "patient_question", "source": "text",
+     "text": "Нужно ли сдавать какие-то анализы? Можно ли продолжать принимать ибупрофен так часто?"},
+    {"action": "entry", "slot": null, "source": "text",
+     "text": "Хотя, кажется, в детстве у меня была аллергия на пенициллин — появлялась сыпь."},
+    {"action": "finish"}
+  ],
+  "consultation_steps": [
+    {"kind": "term", "source": "text", "text": "МРТ", "explain": true, "save": true},
+    {"kind": "test_result", "source": "upload", "file": "FICTIONAL_lab_results.pdf", "explain": true, "focus": "Ферритин", "save": true},
+    {"kind": "question", "source": "audio", "audio_file": "fictional_consult_question_ru.wav", "explain": false},
+    {"kind": "note", "source": "text", "text": "Врач сказал, что по описанию похоже на мигрень, и попросил вести дневник головной боли.", "explain": true, "focus": "мигрень", "save": true}
+  ],
+  "extra_questions": ["Нужно ли делать МРТ срочно или можно планово?"],
+  "instructions_file": "FICTIONAL_doctor_instructions.txt",
+  "after_steps": {
+    "appointment_days_ago": 2,
+    "done": ["Вести дневник"],
+    "patient_target_days_from_today": {"Сделать МРТ": -1, "Повторный приём": 26}
+  }
+}
