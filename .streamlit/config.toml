@@ -13,7 +13,6 @@ maxUploadSize = 50
 # Serves ./static (bundled fonts) - the app works offline and makes no requests to font services.
 enableStaticServing = true
 
-# ---- Design: light, friendly "Medical.kz" style -----------------------------------------------
 [theme]
 base = "light"
 primaryColor = "#1E86D4"            # buttons, links, active elements (sky blue, readable with white text)
