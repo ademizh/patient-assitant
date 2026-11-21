@@ -17,7 +17,6 @@ from intake_assistant.records import ORIGIN_LABELS, AppointmentRecord, RecordSto
 CSS = """
 <style>
 /* ======================================================================================
-   Design: light, friendly "Medical.kz" style
    sky-blue accents · very light blue page · white rounded cards · serif headings · pill buttons
    ====================================================================================== */
 :root {
